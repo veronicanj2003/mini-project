@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+font-family: "Space Mono", monospace;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: #edf1f1;
+    color: #1a234d;
+
+}
+
+a {
+    color: #1a234d;
+    font-size: 20px;
+    font-weight: 300;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+}
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding-right: 16px;
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+/*
+
+Nav
+
+*/
+
+
+/* Navigation bar */
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px 12px;
+    background-color: #ffffff;
+
+}
+
+.logo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    
+}
+
+.logo__img {
+    width: 40px;
+    margin-top: 8px;
+}
+
+.logo__text {
+    font-size: 20px;
+    font-weight: 
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+}
