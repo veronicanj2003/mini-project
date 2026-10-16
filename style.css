@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-font-family: "Space Mono", monospace;
 * {
     margin: 0;
     padding: 0;
@@ -69,7 +68,7 @@ nav {
 
 .logo__text {
     font-size: 20px;
-    font-weight: 
+    font-weight: 700;
 }
 
 /* HEADER */
@@ -82,4 +81,53 @@ header {
 .row {
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+}
+
+.row__course {
+   border-left: 1px dashed #cbd5e1;
+}
+
+.course {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 40px;
+    gap: 20px;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.course__icon {
+    font-size: 60px;
+
+}
+
+.course__text {
+    padding: 20px;
+}
+
+.course__selection {
+font-family: "Space Mono", monospace;
+font-weight: bold;
+color: #727892;
+letter-spacing: 0.1px;
+
+}
+
+.course__title {
+    font-weight: 600;
+    font-size: 44px;
+    margin-left: 32px;
+    letter-spacing: 2px;
+}
+
+.hero {
+    border: 1.5px solid #cbd5e1;
+    border-right: 20px solid #badcee;
+    border-radius: 0 16px 16px 0;
 }
