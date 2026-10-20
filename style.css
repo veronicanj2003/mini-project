@@ -173,6 +173,16 @@ button {
     cursor: pointer;
     border-radius: 10px;
     font-family:"Space Mono", monospace;
-    margin: 0 aut0;
+    margin: 0 auto;
 }
+/*
+ABOUT
+SOCIAL 
+*/
 
+#about, #social {
+    padding: 24px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
